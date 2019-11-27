@@ -1,0 +1,156 @@
+header.titulo{
+  font-family: 'Montserrat' sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.totalCompra{
+  overflow: hidden;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+.buy{
+   width: 60%;
+   float: left;
+   margin-right: 10px;
+   box-sizing: border-box;
+   overflow: hidden;
+   border: solid 1px;
+}
+.resumen{
+  width: 35%;
+  float: left;
+  border: solid grey 1px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.fotoProducto{
+  display: block;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.description{
+  float: left;
+  width: 456px;
+}
+
+.price{
+    float: left;
+    width: 12%;
+}
+
+.q{
+    float: left;
+    width: 16%;
+}
+
+.subtotal{
+    float: left;
+    width: 15%;
+}
+
+.resumen-de-compra{
+  padding: 10px;
+  border-bottom: solid color:grey 1px;
+}
+
+#resumen-de-compra{
+  padding: 20px;
+  border-bottom: solid grey 2px;
+}
+
+#totales{
+  padding-top: 20px;
+}
+
+#totales li{
+  list-style-type: none;
+}
+
+ul li label{
+  display: inline-block;
+  width: 60%;
+}
+ul li span{
+  display: inline-block;
+  width: 30%;
+}
+
+@media (max-width: 767px) {
+  .fotoProducto{
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+
+  .buy{
+    width: 100%;
+  }
+
+  .resumen{
+    width: 100%;
+  }
+
+  .description{
+    float: left;
+    width: 100%;
+  }
+
+  .price{
+      float: left;
+      width: 100%;
+  }
+
+  .q{
+      float: left;
+      width: 100%;
+  }
+
+  .subtotal{
+      float: left;
+      width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .fotoProducto{
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+  .description{
+    float: left;
+    width: 100%;
+  }
+
+  .buy{
+    width: 100%;
+  }
+
+  .resumen{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .price{
+      float: left;
+      width: 100%;
+  }
+
+  .q{
+      float: left;
+      width: 100%;
+  }
+
+  .subtotal{
+      float: left;
+      width: 100%;
+  }
+ }

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.generic')
 
 @section('content')
 <div class="container">
@@ -76,8 +76,6 @@
 </div>
 
 <body>
-
-  HOla
 
 <script src="{{asset('js/main.js')}}"></script>
 </body>

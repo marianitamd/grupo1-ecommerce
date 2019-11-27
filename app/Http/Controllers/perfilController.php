@@ -30,19 +30,6 @@ class RegistroController extends Controller {
 
       $registro -> save();
 
-      return redirect ("/peliculas/listado");
+      return redirect ("/index");
     }
 };
-
-class ReliculasController extends Controller {
-  public function validar(Request $req) {
-    $registro = new Pelicula();
-    $registro->title = $req["title"];
-    $registro->rating = $req["rating"];
-    $registro->awards = $req["awards"];
-
-    $pelicula->save();
-
-    return redirect("peliculas/listado");
-  }
-}

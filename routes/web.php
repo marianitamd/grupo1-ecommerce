@@ -49,23 +49,23 @@ Route::get('/cuadros', function ()
   return view('cuadros');
 });
 
-Route::get('/productos/{id}', function ()
-{return view('detalledeproducto');
-});
+Route::get('/productos/{id}', 'ProductsController@detalle');
 
 Route::get('/carrito', function ()
-{return 'carrito';
+{return view('carrito');
 });
 
 Route::get('/perfil', function ()
-{return 'perfil';
+{return view('perfil');
 });
 
 Route::get('/faqs', function ()
-{
-  return 'faqs';
+{return view('faqs');
 });
 
+Route::get('/shopCart', function ()
+{return view('shopCart');
+});
 
 Auth::routes();
 

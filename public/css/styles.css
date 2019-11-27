@@ -1,0 +1,96 @@
+body{
+  background-color: white);
+  background-size: cover;
+}
+
+div.jumbotron{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+section{
+  width: 100%;
+  justify-content: center;
+}
+img.producto{
+  width: 288px;
+  height: 300px;
+}
+
+article{
+  padding: 20px;
+}
+
+footer{
+  margin: 0 auto;
+  background-color: #262727;
+  overflow: hidden;
+  color: white;
+  padding: 10px;
+}
+
+footer nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+}
+i {
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+}
+
+nav.nav-izq ul li a, nav.nav-izq-abajo ul li a {
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+}
+
+.logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.barra-bajo-logo{
+    background-color: white;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-left: 120px;
+    margin-right: 115px;
+    padding-top: 5px;
+    font-size: 25px;
+}
+.logo img{
+  max-width: 100%;
+}
+.logofooter{
+  width: 100%;
+  text-align-last: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  margin: 20px;
+}
+img.logofooter{
+  display: block;
+  width: 100px;
+  margin: auto;
+  padding-top: 15px;
+}
+div.conjunto{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.nav-izq{
+  float: left;
+  width: 50%;
+}
+
+.nav-der{
+  float: right;
+  width: 50%;
+}
