@@ -15,57 +15,32 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('index', function () {
-    return view('index');
-});
+Route::get('/almohadones', 'AlmohadonesController@listado');
 
-Route::get('/mesas', function ()
-{
-  return view('mesas');
-});
 
-Route::get('/lamparas', function ()
-{
-  return view('lamparas');
-});
+Route::get('/canastos', 'CanastosController@listado');
 
-Route::get('/deco', function ()
-{
-  return view('deco');
-});
+Route::get('/carrito', 'ShopCartsController@listado');
 
-Route::get('/canastos', function ()
-{
-  return view('canastos');
-});
+Route::get('/cuadros', 'CuadrosController@listado');
 
-Route::get('/almohadones', function ()
-{
-  return view('almohadones');
-});
-
-Route::get('/cuadros', function ()
-{
-  return view('cuadros');
-});
-
-Route::get('/productos/{id}', 'ProductsController@detalle');
-
-Route::get('/carrito', function ()
-{return view('carrito');
-});
-
-Route::get('/perfil', function ()
-{return view('perfil');
-});
+Route::get('/deco', 'DecosController@listado');
 
 Route::get('/faqs', function ()
 {return view('faqs');
 });
 
-Route::get('/shopCart', function ()
-{return view('shopCart');
-});
+Route::get('index', 'IndexController@listado');
+
+Route::get('/lamparas', 'LamparasController@listado');
+
+Route::get('/mesas', 'MesasController@listado');
+
+Route::get('/perfil', 'PerfilController@listado');
+
+Route::get('/shopCart', 'ShopCartsController@listado');
+
+Route::get('/productos/{id}', 'ProductsController@detalle');
 
 Auth::routes();
 

@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+
 
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark ">
   <a class="navbar-brand" href="index">HH</a>
@@ -47,7 +41,3 @@
     </form>
   </div>
 </nav>
-
-
-  </body>
-</html>

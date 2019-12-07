@@ -28,7 +28,7 @@
      </article>
      <article>
          <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
-     <img class="producto" src="https://www.estiloydeco.com/wp-content/uploads/2016/05/decoracion-con-cuadros-1.jpg" class="card-img-top" alt="...">
+     <img class="producto" src="https://home.ripley.cl/store/Attachment/WOP/D367/2000371915390/2000371915390_2.jpg" class="card-img-top" alt="...">
      <div class="card-body">
      <h5 class="card-title"><a href="#" class="INDEX">Color</a></h5>
      <p class="card-text"> $550 </p>

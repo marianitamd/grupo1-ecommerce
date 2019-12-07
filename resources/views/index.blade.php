@@ -4,7 +4,7 @@
 
   <section class="logo">
 
-    <a href="{{URL::to('/')}}"><img src={{asset('img/logo.png')}} alt="Logo"></a>
+    <a href="{{URL::to('/')}}"><img src={{asset('storage/img/logo.png')}} alt="Logo"></a>
     <nav class="barra-bajo-logo">
           <ul class="nav justify-content-center">
               <li class="nav-item">

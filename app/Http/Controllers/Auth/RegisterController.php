@@ -69,4 +69,26 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
         ]);
     }
+
+
+  public function registrar (Request $form){
+    $registro = new Registro();
+    $registro->email = $form["email"];
+    $registro->password = $form["password"];
+    $registro -> save();
+    return redirect ("/perfil");
+  }
+
+
+ public function actualizar (Request $form, $id){
+     $registro = Registro::find($id);
+
+      $registro->email = $form["email"];
+      $registro->password = $form["password"];
+
+      $registro -> save();
+
+      return redirect ("/index");
+    }
+
 }
