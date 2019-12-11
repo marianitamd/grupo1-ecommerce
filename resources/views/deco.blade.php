@@ -25,7 +25,10 @@
       <h5 class="card-title"><a href="#" class="INDEX">{{$product->name}}</a></h5>
       <p class="card-text"> $ {{$product->price}} </p>
       <br>
-      <p class="card-text"> <b> HASTA  12 CUOTAS</b></p>
+      <a href="detalledeproducto" class=>Conocé más detalles</a>
+
+      </div>
+      </div>
 
     </article>
 

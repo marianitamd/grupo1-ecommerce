@@ -35,9 +35,9 @@
         <a class="nav-link" href="shopCart">Mis Pedidos <i class="fas fa-shopping-cart"></i></a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0 ">
+  <!-- <form class="form-inline my-2 my-lg-0 ">
       <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
       <button class="btn btn-outline-light my-2 my-sm-0 text-dark active" type="submit">Búsqueda!</button>
-    </form>
+    </form>-->
   </div>
 </nav>

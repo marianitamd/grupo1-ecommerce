@@ -52,6 +52,7 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'surname' => ['required', 'string'],
         ]);
     }
 
@@ -66,29 +67,8 @@ class RegisterController extends Controller
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            'surname' => $data['surname'],
             'password' => Hash::make($data['password']),
         ]);
     }
-
-
-  public function registrar (Request $form){
-    $registro = new Registro();
-    $registro->email = $form["email"];
-    $registro->password = $form["password"];
-    $registro -> save();
-    return redirect ("/perfil");
-  }
-
-
- public function actualizar (Request $form, $id){
-     $registro = Registro::find($id);
-
-      $registro->email = $form["email"];
-      $registro->password = $form["password"];
-
-      $registro -> save();
-
-      return redirect ("/index");
-    }
-
 }

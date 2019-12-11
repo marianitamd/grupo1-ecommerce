@@ -26,6 +26,8 @@ Route::get('/cuadros', 'CuadrosController@listado');
 
 Route::get('/deco', 'DecosController@listado');
 
+Route::get('/detalledeproducto/{id}', 'DetalledeproductoController@detalle');
+
 Route::get('/faqs', function ()
 {return view('faqs');
 });
@@ -40,7 +42,10 @@ Route::get('/perfil', 'PerfilController@listado');
 
 Route::get('/shopCart', 'ShopCartsController@listado');
 
-Route::get('/productos/{id}', 'ProductsController@detalle');
+Route::get('/init', function (){
+  artisan::call('storage:link');
+  return 'ready!';
+});
 
 Auth::routes();
 

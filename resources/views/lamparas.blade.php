@@ -24,13 +24,8 @@
       <h5 class="card-title"><a href="#" class="INDEX">{{$product->name}}</a></h5>
       <p class="card-text"> $ {{$product->price}} </p>
       <br>
-      <p class="card-text"> <b>Hasta 6 cuotas sin interes</b></p>
+        <a href="detalledeproducto" class=>Conocé más detalles</a>
       </div>
-
-      <h5 class="card-title">Cuadros</h5>
-      <p class="card-text">Dale vida a tus paredes</p>
-      <a href="detalle.php" class=>más +</a>
-    </div>
 
   </div>
     </article>
